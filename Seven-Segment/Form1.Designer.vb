@@ -29,7 +29,7 @@ Partial Class Form1
         Me.f = New System.Windows.Forms.Label()
         Me.g = New System.Windows.Forms.Label()
         Me.c = New System.Windows.Forms.Label()
-        Me.e = New System.Windows.Forms.Label()
+        Me.i = New System.Windows.Forms.Label()
         Me.d = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -87,13 +87,13 @@ Partial Class Form1
         Me.c.Size = New System.Drawing.Size(25, 115)
         Me.c.TabIndex = 5
         '
-        'e
+        'i
         '
-        Me.e.BackColor = System.Drawing.Color.DarkRed
-        Me.e.Location = New System.Drawing.Point(65, 221)
-        Me.e.Name = "e"
-        Me.e.Size = New System.Drawing.Size(25, 115)
-        Me.e.TabIndex = 6
+        Me.i.BackColor = System.Drawing.Color.DarkRed
+        Me.i.Location = New System.Drawing.Point(65, 221)
+        Me.i.Name = "i"
+        Me.i.Size = New System.Drawing.Size(25, 115)
+        Me.i.TabIndex = 6
         '
         'd
         '
@@ -149,7 +149,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.d)
-        Me.Controls.Add(Me.e)
+        Me.Controls.Add(Me.i)
         Me.Controls.Add(Me.c)
         Me.Controls.Add(Me.g)
         Me.Controls.Add(Me.f)
@@ -170,7 +170,7 @@ Partial Class Form1
     Friend WithEvents f As Label
     Friend WithEvents g As Label
     Friend WithEvents c As Label
-    Friend WithEvents e As Label
+    Friend WithEvents i As Label
     Friend WithEvents d As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button

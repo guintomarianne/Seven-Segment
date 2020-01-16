@@ -17,7 +17,7 @@
             b.BackColor = Color.DarkRed
             c.BackColor = Color.DarkRed
             d.BackColor = Color.Gray
-            e.BackColor = Color.Gray
+            i.BackColor = Color.Gray
             f.BackColor = Color.Gray
             g.BackColor = Color.Gray
 
@@ -26,7 +26,7 @@
             b.BackColor = Color.DarkRed
             c.BackColor = Color.Gray
             d.BackColor = Color.DarkRed
-            e.BackColor = Color.DarkRed
+            i.BackColor = Color.DarkRed
             f.BackColor = Color.Gray
             g.BackColor = Color.DarkRed
 
@@ -105,4 +105,6 @@
         End If
 
     End Sub
+
+
 End Class
